@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1>Contactame</h1>
+        <p>Me pondre en contacto lo antes posible.</p>
+        <form class="formulario" action="">
+            <div class="informacion">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="name" placeholder="Ej. Jose , Juan" required>
+            </div>
+            <div class="informacion">
+                <label for="apellido"  >Apellido:</label>
+                <input type="text" placeholder="Ej. Perez, Carrillo" id="apellido" required>
+            </div>
+            <div class="informacion">
+                <label for="correo">Correo:</label>
+                <input type="text" id="correo" placeholder="Ej. usuario@gmail.com" required>
+            </div>
+            <div class="informacion">
+                <label for="">Mensaje:</label>
+                <textarea placeholder="Escribeme lo que gustes!" name="" id="" cols="21" rows="4" none required></textarea>
+            </div>
+            <div class="generos">
+                <label for="">Genero:</label>
+                <label for="Hombre" class="elige">Hombre</label>
+                <input name="genero" type="radio" id="Hombre">
+                <label for="Mujer" class="elige">Mujer</label>
+                 <input name="genero" type="radio" id="Mujer">
+                <label for="na" class="elige">N.A.</label>
+                 <input name="genero" type="radio" id="na">
+
+            </div>
+
+            <div class="informacion">
+                <p>Para mas informacion <a href="">Click aqui</a></p>
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

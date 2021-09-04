@@ -10,7 +10,7 @@ body{
 .contenedor{
     width: 300px;
     margin: 0 auto;
-    background-color: rgb(172, 224, 235);
+    background-color: rgb(158, 245, 211);
     height: 620px;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,7 @@ button{
     width: 250px;
     height: 30px;
     border-radius: 5px;
+    border: 1px solid whitesmoke;
 }
 .generos{
     margin-top: 10px;

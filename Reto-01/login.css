@@ -1,0 +1,39 @@
+
+body{
+    background-color: coral;
+}
+form{
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(216, 231, 217);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    color:rgb(28, 15, 98);
+}
+input{
+    margin-top: 20px;
+    width: 250px;
+    align-self:  center;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+button{
+    align-self:  center;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(88, 71, 243);
+    font-size: larger;
+    color: aliceblue;
+}

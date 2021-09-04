@@ -10,7 +10,34 @@
 <body>
     <main>
         <form action="">
-            
+            <h1>Sign up</h1>
+            <label for="nombre">Nombre</label> 
+            <input type="text" id="nombre" maxlength="6" required> 
+            <label for="edad"  required>Edad</label> 
+            <input type="number" max="120" id="edad"  > 
+            <label for="Correo">Correo</label> 
+            <input type="email" id="Correo"> 
+            <label for="mas">Mas informacion</label> 
+            <textarea name="mas" id="" cols="47" rows="4" ></textarea>  
+            <label for="">Genero</label> 
+            <input class="radio" type="radio" name="genero" id="" >
+            <label class="genero" for="">Hombre</label>
+            <input class="radio" type="radio" name="genero" id="Mujer">
+            <label class="genero" for="Mujer">Mujer</label>
+            <input class="radio" type="radio" name="genero" id="Otro">
+            <label class="genero" for="Otro">Otro</label>
+            <label for="">Plan</label><br>
+            <select name="" id="">
+                <option value="">Seleccionar</option>
+                <option value="">1 mes</option>
+                <option value="">2 meses</option>
+                <option value="">3 meses</option>
+                <option value="">4 meses</option>
+                <option value="">5 meses</option>
+            </select>
+            <br>
+            <input type="checkbox" name="" id="sub">Suscribirse para mas informacion
+            <button>Enviar</button>
         </form>
     </main>
 </body>
